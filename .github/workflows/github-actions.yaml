@@ -11,7 +11,7 @@ jobs:
     steps:
      - uses: actions/checkout@v2
        with: 
-          repository: Github-Username/automate-with-actions
+          repository: waelahmed-dev/automate-with-actions
           token: ${{secrets.ACCESSTOKEN}}
      - run: |
         echo "hello DK"
